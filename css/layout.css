@@ -1,20 +1,30 @@
-div {
-  text-align: center;
+.main-container {
+  width: 960px;
+  clear:both;
+}
+
+channel div {
+  max-width: 960px;
 }
 
 section {
-  height : 768px;
-  width: 960px;
-  margin: auto;
-}
-
-.cd {
-  float: left;
-  width : 760px;
-}
-
-.efgh {
   float: left;
   width: 760px;
 }
 
+section section {
+  float: left;
+}
+
+section div {
+  float: left;
+}
+
+aside {
+  float: left;
+  width: 200px;
+}
+
+div {
+  text-align: center;
+}
