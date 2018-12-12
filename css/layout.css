@@ -1,7 +1,30 @@
-channel {
+.main-container {
+  width: 960px;
+  clear:both;
+}
+
+channel div {
   max-width: 960px;
 }
 
 section {
-  float: right;
+  float: left;
+  width: 760px;
+}
+
+section section {
+  float: left;
+}
+
+section div {
+  float: left;
+}
+
+aside {
+  float: left;
+  width: 200px;
+}
+
+div {
+  text-align: center;
 }
