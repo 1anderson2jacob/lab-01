@@ -1,0 +1,74 @@
+@media only screen and (max-width: 481px) {
+  div {
+    text-align: center;
+  }
+  
+  section {
+    /* overflow : hidden; */
+    height: 767px;
+    width: 480px;
+  }
+  .cd {
+    float: none;
+    width : 480px;
+  }
+  
+  .efgh {
+    float: left;
+    width: 480px;
+  }
+  
+  #a {
+    height: 75px;
+    background-color: red;
+  }
+  #b {
+    height: 150px;
+    background-color: purple;
+    float : none;
+    width: inherit;
+  }
+  #c {
+    height: 125px;
+    float: none;
+    background-color: blue;
+    width: inherit;
+  }
+  #d {
+    height: 125px;
+    float: none;
+    background-color: green;
+    width: inherit;
+  }
+  #e {
+    float: left;
+    width: 50%;
+    height: 250px;
+    background-color: yellow;
+  }
+  #f {
+    float: left;
+    width: 50%;
+    height: 250px;
+    background-color: orange;
+  }
+  #g {
+    float: left;
+    width: 50%;
+    height: 250px;
+    background-color: magenta;
+  }
+  #h {
+    float: left;
+    width: 50%;
+    height: 250px;
+    background-color: maroon;
+  }
+  #i {
+    height: 80px;
+    background-color: chocolate;
+    float: left;
+    width : 480px;
+  }
+
+}
